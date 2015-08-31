@@ -14,7 +14,7 @@ void stringCompression(string str)
 	int count = 1;
 
 	newStr = newStr + last;
-
+g
 	for (int i = 1; i < str.length(); i++) 
 	{
 		if (str[i] == last) 
