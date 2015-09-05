@@ -5,15 +5,10 @@ using namespace std;
 int main () 
 {
 	node *a = new node;
-	a->setData(1);
+	list_head_insert(a, 10);
 	
 	node *b = new node;
-	b->setData(2);
-
-	a->setLink(b);
-	b->setLink(NULL);
-
-	cout << a->getData() << endl;
+	list_insert(b, 20);
 
 	return 0;
 }
